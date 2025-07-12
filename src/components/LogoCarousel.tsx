@@ -12,9 +12,9 @@ export default function LogoCarousel({ files }: { files: string[] }) {
                 key={logo + idx}
                 src={`/logos carousel/${logo}`}
                 alt={`Logo ${idx + 1}`}
-                width={64}
-                height={64}
-                className="h-16 w-auto object-contain"
+                width={50}
+                height={50}
+                className="h-10 w-auto object-contain"
               />
             ))}
           </div>
