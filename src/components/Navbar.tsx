@@ -1,6 +1,5 @@
 "use client";
 import Image from 'next/image';
-import { useEffect, useRef, useState } from 'react';
 export default function Navbar() {
   return (
     <div className="bg-amber-500/70 text-white border-b-1 border-neutral-700">
