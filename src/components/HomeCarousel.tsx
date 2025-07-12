@@ -15,7 +15,7 @@ export default function HomeCarousel() {
   }, [images.length]);
 
   return (
-    <div className="relative w-full max-w-xl mx-auto">
+    <div className="relative w-full max-w-xl mx-auto px-3">
       <div className="relative w-full aspect-[16/9] md:h-[500px]">
         {images.map((img, idx) => (
           <img

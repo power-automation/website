@@ -1,8 +1,9 @@
 import React from 'react';
-
+import Image from 'next/image';
 export default function Footer() {
   return (
     <footer className="bg-gray-800 text-white py-6">
+      <Image src="/Logo.png" alt="logo" width={100} height={100} className='justify-self-center rounded-full my-5'></Image>
       <div className="container mx-auto px-4">
         <div className="flex flex-col md:flex-row md:justify-between md:items-start gap-6">
           <div>
