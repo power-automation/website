@@ -1,6 +1,6 @@
 "use client";
 import React, { useEffect } from "react";
-
+import Image from "next/image";
 export default function HomeCarousel() {
   const images = ["1.jpg", "2.jpg", "3.jpg", "4.jpg"];
   const [currentIndex, setCurrentIndex] = React.useState(0);
@@ -18,7 +18,7 @@ export default function HomeCarousel() {
     <div className="relative w-full max-w-xl mx-auto px-3">
       <div className="relative w-full aspect-[16/9] md:h-[500px]">
         {images.map((img, idx) => (
-          <img
+          <Image
             key={img}
             src={`/carousel/${img}`}
             alt={`Slide ${idx + 1}`}
